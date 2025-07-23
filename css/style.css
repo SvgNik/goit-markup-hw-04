@@ -93,6 +93,7 @@ img {
 
 .nav-links {
   display: block;
+  position: relative;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -103,10 +104,27 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-
+/*  */
 .nav-links:hover,
 .nav-links:focus {
   color: #404bbf;
+}
+
+
+
+.nav-links.active {
+  color: #404bbf;
+}
+
+.nav-links.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 48px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  height: 4px;
 }
 
 .contact {
@@ -138,6 +156,9 @@ img {
   height: 600px;
   justify-content: center;
   padding: 188px 0;
+  background-image: url(../images/hero/Dark-bg.svg) , url('../images/hero/people-office.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero .container {
@@ -145,6 +166,7 @@ img {
   flex-direction: column;
   align-items: center;
   gap: 48px;
+
 }
 
 .hero-text {
@@ -199,6 +221,23 @@ img {
 
 .benefits-item {
   width: calc((100% - 72px) / 4);
+}
+
+.benefits-icon-box {
+  width: 264px;
+  height: 112px;
+  background-color: #F4F4FD;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.benefits-icons {
+  width: 64px;
+  height: 64px;
 }
 
 .benefits-subtitle {
