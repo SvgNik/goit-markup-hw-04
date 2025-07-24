@@ -162,6 +162,7 @@ img {
   height: 600px;
   justify-content: center;
   padding: 188px 0;
+  margin: 0 auto;
   background-image: url(../images/hero/Dark-bg.svg),
     url("../images/hero/people-office.jpg");
   background-repeat: no-repeat;
@@ -173,6 +174,7 @@ img {
     url(../images/hero/people-office.jpg);
   background-position: center;
   max-width: 1440px;
+
 }
 
 .hero .container {
@@ -327,6 +329,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-top: 8px;
 }
 
 .socials-icon {
