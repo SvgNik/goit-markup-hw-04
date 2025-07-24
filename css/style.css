@@ -473,10 +473,11 @@ footer {
 
 .footer-flex {
   display: flex;
-  align-items: start;
+  align-items: baseline;
   gap: 100px;
 }
 .footer-main {
+
 }
 
 .footer-socials {
@@ -487,6 +488,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
+margin-bottom: 16px
 }
 .footer-list {
 }
