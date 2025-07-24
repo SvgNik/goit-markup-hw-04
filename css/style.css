@@ -478,18 +478,19 @@ footer {
 }
 .footer-main {
   max-width: 264px;
+  margin-right: 120px;
 }
 
 .footer-socials {
 }
 
 .footer-socials-text {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #FFFFFF;
-margin-bottom: 16px
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
 .footer-list {
   display: flex;
@@ -497,7 +498,6 @@ margin-bottom: 16px
   padding: 0;
   margin: 0;
   list-style: none;
-
 }
 .footer-item {
 }
@@ -509,6 +509,14 @@ margin-bottom: 16px
   height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  background-color: #31d0aa;
 }
 .footer-icon {
   fill: #f4f4fd;
