@@ -470,3 +470,29 @@ footer {
 .footer-n-logo {
   color: #f4f4fd;
 }
+
+.footer-flex {
+  display: flex;
+  align-items: start;
+  gap: 100px;
+}
+.footer-main {
+}
+
+.footer-socials {
+}
+.footer-socials-text {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.footer-list {
+}
+.footer-item {
+}
+.footer-link {
+}
+.footer-icon {
+}
