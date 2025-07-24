@@ -113,21 +113,10 @@ img {
   color: #404bbf;
 }
 
-.nav-links::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  width: 100%;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
+.nav-links.current {
 }
 
-.nav-links.active {
-}
-
-.nav-links.active::after {
+.nav-links.current::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -136,6 +125,7 @@ img {
   background-color: #404bbf;
   border-radius: 2px;
   height: 4px;
+  bottom: -1px;
 }
 
 .contact {
